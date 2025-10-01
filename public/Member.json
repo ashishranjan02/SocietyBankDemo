@@ -1,0 +1,313 @@
+
+[
+  {
+    "_id": "MSR-0001",
+    "memberId": "MSR-0001",
+    "accountId": "AC-5001",
+    "name": "Satyam Ray",
+    "email": "satyam.ray@example.com",
+    "mobile": "+919810000001",
+    "dob": "1988-01-01",
+    "address": {
+      "street": "12 MG Road",
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "pincode": "560001",
+      "country": "India"
+    },
+    "kyc": {
+      "aadhar": "1234-5678-9012",
+      "pan": "ABCDE1234F",
+      "documents": [
+        {
+          "type": "aadhar",
+          "url": "s3://documents/satyam_aadhar.pdf",
+          "status": "verified"
+        }
+      ],
+      "verified": true
+    },
+    "joinedAt": "2025-09-16T12:00:00Z",
+    "role": "member",
+    "status": "active"
+  },
+  {
+    "_id": "MSR-0002",
+    "memberId": "MSR-0002",
+    "accountId": "AC-5002",
+    "name": "Ananya Singh",
+    "email": "ananya.singh@example.com",
+    "mobile": "+919810000002",
+    "dob": "1990-05-12",
+    "address": {
+      "street": "45 Nehru Street",
+      "city": "Delhi",
+      "state": "Delhi",
+      "pincode": "110001",
+      "country": "India"
+    },
+    "kyc": {
+      "aadhar": "2345-6789-0123",
+      "pan": "BCDEA2345G",
+      "documents": [
+        {
+          "type": "aadhar",
+          "url": "s3://documents/ananya_aadhar.pdf",
+          "status": "verified"
+        }
+      ],
+      "verified": true
+    },
+    "joinedAt": "2025-08-10T15:30:00Z",
+    "role": "member",
+    "status": "active"
+  },
+  {
+    "_id": "MSR-0003",
+    "memberId": "MSR-0003",
+    "accountId": "AC-5003",
+    "name": "Rohit Sharma",
+    "email": "rohit.sharma@example.com",
+    "mobile": "+919810000003",
+    "dob": "1985-11-20",
+    "address": {
+      "street": "78 Marine Drive",
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "pincode": "400001",
+      "country": "India"
+    },
+    "kyc": {
+      "aadhar": "3456-7890-1234",
+      "pan": "CDEAB3456H",
+      "documents": [
+        {
+          "type": "aadhar",
+          "url": "s3://documents/rohit_aadhar.pdf",
+          "status": "pending"
+        }
+      ],
+      "verified": false
+    },
+    "joinedAt": "2025-07-05T09:00:00Z",
+    "role": "member",
+    "status": "active"
+  },
+  {
+    "_id": "MSR-0004",
+    "memberId": "MSR-0004",
+    "accountId": "AC-5004",
+    "name": "Priya Nair",
+    "email": "priya.nair@example.com",
+    "mobile": "+919810000004",
+    "dob": "1992-03-15",
+    "address": {
+      "street": "23 MG Road",
+      "city": "Kochi",
+      "state": "Kerala",
+      "pincode": "682001",
+      "country": "India"
+    },
+    "kyc": {
+      "aadhar": "4567-8901-2345",
+      "pan": "DEABC4567I",
+      "documents": [
+        {
+          "type": "aadhar",
+          "url": "s3://documents/priya_aadhar.pdf",
+          "status": "verified"
+        }
+      ],
+      "verified": true
+    },
+    "joinedAt": "2025-06-18T11:45:00Z",
+    "role": "member",
+    "status": "active"
+  },
+  {
+    "_id": "MSR-0005",
+    "memberId": "MSR-0005",
+    "accountId": "AC-5005",
+    "name": "Vikram Patel",
+    "email": "vikram.patel@example.com",
+    "mobile": "+919810000005",
+    "dob": "1987-08-30",
+    "address": {
+      "street": "56 Ellis Road",
+      "city": "Ahmedabad",
+      "state": "Gujarat",
+      "pincode": "380001",
+      "country": "India"
+    },
+    "kyc": {
+      "aadhar": "5678-9012-3456",
+      "pan": "EABCD5678J",
+      "documents": [
+        {
+          "type": "aadhar",
+          "url": "s3://documents/vikram_aadhar.pdf",
+          "status": "verified"
+        }
+      ],
+      "verified": true
+    },
+    "joinedAt": "2025-05-22T14:20:00Z",
+    "role": "member",
+    "status": "active"
+  },
+  {
+    "_id": "MSR-0006",
+    "memberId": "MSR-0006",
+    "accountId": "AC-5006",
+    "name": "Sneha Verma",
+    "email": "sneha.verma@example.com",
+    "mobile": "+919810000006",
+    "dob": "1993-09-10",
+    "address": {
+      "street": "12 Park Street",
+      "city": "Kolkata",
+      "state": "West Bengal",
+      "pincode": "700016",
+      "country": "India"
+    },
+    "kyc": {
+      "aadhar": "6789-0123-4567",
+      "pan": "FABCD6789K",
+      "documents": [
+        {
+          "type": "aadhar",
+          "url": "s3://documents/sneha_aadhar.pdf",
+          "status": "pending"
+        }
+      ],
+      "verified": false
+    },
+    "joinedAt": "2025-04-12T10:00:00Z",
+    "role": "member",
+    "status": "active"
+  },
+  {
+    "_id": "MSR-0007",
+    "memberId": "MSR-0007",
+    "accountId": "AC-5007",
+    "name": "Amitabh Singh",
+    "email": "amitabh.singh@example.com",
+    "mobile": "+919810000007",
+    "dob": "1980-12-25",
+    "address": {
+      "street": "89 Connaught Place",
+      "city": "Delhi",
+      "state": "Delhi",
+      "pincode": "110001",
+      "country": "India"
+    },
+    "kyc": {
+      "aadhar": "7890-1234-5678",
+      "pan": "GABCDE7890L",
+      "documents": [
+        {
+          "type": "aadhar",
+          "url": "s3://documents/amitabh_aadhar.pdf",
+          "status": "verified"
+        }
+      ],
+      "verified": true
+    },
+    "joinedAt": "2025-03-28T13:15:00Z",
+    "role": "member",
+    "status": "active"
+  },
+  {
+    "_id": "MSR-0008",
+    "memberId": "MSR-0008",
+    "accountId": "AC-5008",
+    "name": "Meera Joshi",
+    "email": "meera.joshi@example.com",
+    "mobile": "+919810000008",
+    "dob": "1991-07-07",
+    "address": {
+      "street": "34 Brigade Road",
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "pincode": "560025",
+      "country": "India"
+    },
+    "kyc": {
+      "aadhar": "8901-2345-6789",
+      "pan": "HABCDE8901M",
+      "documents": [
+        {
+          "type": "aadhar",
+          "url": "s3://documents/meera_aadhar.pdf",
+          "status": "pending"
+        }
+      ],
+      "verified": false
+    },
+    "joinedAt": "2025-02-14T09:30:00Z",
+    "role": "member",
+    "status": "active"
+  },
+  {
+    "_id": "MSR-0009",
+    "memberId": "MSR-0009",
+    "accountId": "AC-5009",
+    "name": "Rakesh Kumar",
+    "email": "rakesh.kumar@example.com",
+    "mobile": "+919810000009",
+    "dob": "1989-06-18",
+    "address": {
+      "street": "67 MG Road",
+      "city": "Pune",
+      "state": "Maharashtra",
+      "pincode": "411001",
+      "country": "India"
+    },
+    "kyc": {
+      "aadhar": "9012-3456-7890",
+      "pan": "IABCDE9012N",
+      "documents": [
+        {
+          "type": "aadhar",
+          "url": "s3://documents/rakesh_aadhar.pdf",
+          "status": "verified"
+        }
+      ],
+      "verified": true
+    },
+    "joinedAt": "2025-01-10T16:00:00Z",
+    "role": "member",
+    "status": "active"
+  },
+  {
+    "_id": "MSR-0010",
+    "memberId": "MSR-0010",
+    "accountId": "AC-5010",
+    "name": "Anjali Mehta",
+    "email": "anjali.mehta@example.com",
+    "mobile": "+919810000010",
+    "dob": "1994-02-28",
+    "address": {
+      "street": "10 Salt Lake",
+      "city": "Kolkata",
+      "state": "West Bengal",
+      "pincode": "700064",
+      "country": "India"
+    },
+    "kyc": {
+      "aadhar": "0123-4567-8901",
+      "pan": "JABCDE0123O",
+      "documents": [
+        {
+          "type": "aadhar",
+          "url": "s3://documents/anjali_aadhar.pdf",
+          "status": "verified"
+        }
+      ],
+      "verified": true
+    },
+    "joinedAt": "2025-09-01T12:00:00Z",
+    "role": "member",
+    "status": "active"
+  }
+]
