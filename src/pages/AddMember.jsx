@@ -59,7 +59,7 @@ export default function AddMember() {
             setActiveStep(activeStep + 1);
         } else {
             console.log("Submitted Data:", formData);
-            alert("✅ Application Submitted!");
+            alert(" Application Submitted!");
         }
     };
 
@@ -129,7 +129,7 @@ export default function AddMember() {
                             <TextField
                                 fullWidth
                                 label="Father/Husband Name"
-                                name="fatherHusbandName"
+                                name="father/HusbandName"
                                 value={formData.fatherHusbandName}
                                 onChange={handleChange}
                                 sx={{ mb: 2 }}
@@ -248,7 +248,7 @@ export default function AddMember() {
                             <TextField
                                 fullWidth
                                 label="Contact Number"
-                                name="contact"
+                                name="Contact No."
                                 value={formData.contact}
                                 onChange={handleChange}
                                 sx={{ mb: 2 }}
@@ -265,7 +265,7 @@ export default function AddMember() {
                             <TextField
                                 fullWidth
                                 label="PAN Card No."
-                                name="pan"
+                                name="Pan No."
                                 value={formData.pan}
                                 onChange={handleChange}
                                 sx={{ mb: 2 }}
@@ -273,7 +273,7 @@ export default function AddMember() {
                             <TextField
                                 fullWidth
                                 label="Aadhar No."
-                                name="aadhar"
+                                name="Aadhar No."
                                 value={formData.aadhar}
                                 onChange={handleChange}
                                 sx={{ mb: 2 }}
